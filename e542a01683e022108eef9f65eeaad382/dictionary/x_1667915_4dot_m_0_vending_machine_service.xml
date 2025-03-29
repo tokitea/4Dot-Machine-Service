@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="14377c5e832422108eef9f65eeaad3de" label="Vending Machine Service" max_length="40" name="x_1667915_4dot_m_0_vending_machine_service" type="collection">
         <element label="Service Group" mandatory="true" max_length="255" name="service_group" reference="sys_user_group" type="reference"/>
-        <element label="Current Owner" mandatory="true" max_length="255" name="current_owner" reference="core_company" type="reference"/>
+        <element display="true" label="Current Owner" mandatory="true" max_length="32" name="current_owner" reference="core_company" type="reference"/>
         <element label="Last Time Serviced" max_length="40" name="last_time_serviced" type="calendar_date_time"/>
         <element choice="1" label="Type of Ownership" mandatory="true" max_length="40" name="type_of_ownership" type="choice">
             <choice>
