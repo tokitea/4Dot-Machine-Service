@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="14377c5e832422108eef9f65eeaad3de" label="Vending Machine Service" max_length="40" name="x_1667915_4dot_m_0_vending_machine_service" type="collection">
+        <element label="Service Group" mandatory="true" max_length="255" name="service_group" reference="sys_user_group" type="reference"/>
+        <element display="true" label="Current Owner" mandatory="true" max_length="32" name="current_owner" reference="core_company" type="reference"/>
+        <element label="Last Time Serviced" max_length="40" name="last_time_serviced" type="calendar_date_time"/>
+        <element choice="1" label="Type of Ownership" mandatory="true" max_length="40" name="type_of_ownership" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Leased" sequence="1" value="leased"/>
+                <element inactive_on_update="false" label="Owned" sequence="0" value="owned"/>
+            </choice>
+        </element>
+        <element label="Name" mandatory="true" max_length="255" name="name" type="string"/>
+        <element choice="1" label="Content Type" mandatory="true" max_length="40" name="content_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Drinks" sequence="1" value="drinks"/>
+                <element inactive_on_update="false" label="Food" sequence="0" value="food"/>
+            </choice>
+        </element>
+        <element label="Date of Purchase" max_length="255" name="date_of_purchase" type="glide_date"/>
+        <element label="Journal" max_length="255" name="journal" type="journal"/>
+        <element label="Date of Installation" max_length="40" name="date_of_installation" type="glide_date"/>
+        <element label="Location" mandatory="true" max_length="40" name="location" reference="cmn_location" type="reference"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending Servicing" sequence="2" value="pending_servicing"/>
+                <element inactive_on_update="false" label="Pending Repairs" sequence="3" value="pending_repairs"/>
+                <element inactive_on_update="false" label="Disabled" sequence="0" value="disabled"/>
+                <element inactive_on_update="false" label="Refill requested" sequence="4" value="refill_requested"/>
+                <element inactive_on_update="false" label="Operational" sequence="1" value="operational"/>
+                <element inactive_on_update="false" label="In stock" sequence="5" value="in_stock"/>
+            </choice>
+        </element>
+    </element>
+</database>
