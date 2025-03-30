@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Users_Companies_Departments</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1667915_4dot_m_0_foundationdata</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-30 18:16:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0069d522832c62108eef9f65eeaad3f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Users_Companies_Departments</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="4Dot Machine Service" source="x_1667915_4dot_m_0">e542a01683e022108eef9f65eeaad382</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</sys_scope>
+        <sys_update_name>sys_app_module_0069d522832c62108eef9f65eeaad3f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-30 18:16:41</sys_updated_on>
+        <timeline_page/>
+        <title>Users_Companies_Departments</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</application>
+        <file_path/>
+        <instance_id>998e3c1c3b60a254c55a348aa4e45aba</instance_id>
+        <instance_name>dev307760</instance_name>
+        <name>sys_app_module_0069d522832c62108eef9f65eeaad3f3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Users_Companies_Departments</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1667915_4dot_m_0_foundationdata</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-30 18:16:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0069d522832c62108eef9f65eeaad3f3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Users_Companies_Departments</sys_name><sys_overrides/><sys_package display_value="4Dot Machine Service" source="x_1667915_4dot_m_0">e542a01683e022108eef9f65eeaad382</sys_package><sys_policy/><sys_scope display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</sys_scope><sys_update_name>sys_app_module_0069d522832c62108eef9f65eeaad3f3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-30 18:16:41</sys_updated_on><timeline_page/><title>Users_Companies_Departments</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-285346858</payload_hash>
+        <record_name>Users_Companies_Departments</record_name>
+        <reverted_from/>
+        <source>f586f49683e022108eef9f65eeaad394</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-30 18:16:41</sys_created_on>
+        <sys_id>48691922832c62108eef9f65eeaad302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195e8452ae20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-30 18:16:41</sys_updated_on>
+        <type>Module</type>
+        <update_guid>0c691922102c621051d3455134113401</update_guid>
+        <update_guid_history>0c691922102c621051d3455134113401:-285346858</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Users_Companies_Departments">a36d5d66832c62108eef9f65eeaad3ee</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-30 18:34:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>1ba5df3dbc04429a96c67a1fcf0c8de4</sys_id>
+        <sys_metadata>0069d522832c62108eef9f65eeaad3f3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Users_Companies_Departments</sys_name>
+        <sys_package display_value="4Dot Machine Service" source="x_1667915_4dot_m_0">e542a01683e022108eef9f65eeaad382</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</sys_scope>
+        <sys_scope_delete display_value="">1633501909094a86801d1d31e00c1f49</sys_scope_delete>
+        <sys_update_name>sys_app_module_0069d522832c62108eef9f65eeaad3f3</sys_update_name>
+        <sys_update_version display_value="sys_app_module_0069d522832c62108eef9f65eeaad3f3">48691922832c62108eef9f65eeaad302</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-30 18:34:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
