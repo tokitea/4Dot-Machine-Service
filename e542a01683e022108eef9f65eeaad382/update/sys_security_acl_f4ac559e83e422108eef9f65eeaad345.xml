@@ -10,21 +10,21 @@
         <description/>
         <local_or_existing>Local</local_or_existing>
         <name>x_1667915_4dot_m_0_vending_machine_service</name>
-        <operation display_value="delete">delete</operation>
+        <operation display_value="write">write</operation>
         <script/>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-03-29 21:08:55</sys_created_on>
-        <sys_id>5d37bc5e832422108eef9f65eeaad3ff</sys_id>
+        <sys_created_on>2025-03-29 23:52:27</sys_created_on>
+        <sys_id>f4ac559e83e422108eef9f65eeaad345</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_1667915_4dot_m_0_vending_machine_service</sys_name>
         <sys_package display_value="4Dot Machine Service" source="x_1667915_4dot_m_0">e542a01683e022108eef9f65eeaad382</sys_package>
         <sys_policy/>
         <sys_scope display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</sys_scope>
-        <sys_update_name>sys_security_acl_5d37bc5e832422108eef9f65eeaad3ff</sys_update_name>
+        <sys_update_name>sys_security_acl_f4ac559e83e422108eef9f65eeaad345</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-29 21:08:55</sys_updated_on>
+        <sys_updated_on>2025-03-29 23:52:27</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-29 21:08:55</sys_created_on>
+        <sys_id>5d37fc5e832422108eef9f65eeaad31b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1667915_4dot_m_0_vending_machine_service.x_1667915_4dot_m_0.user</sys_name>
+        <sys_package display_value="4Dot Machine Service" source="x_1667915_4dot_m_0">e542a01683e022108eef9f65eeaad382</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</sys_scope>
+        <sys_security_acl display_value="x_1667915_4dot_m_0_vending_machine_service">5d37bc5e832422108eef9f65eeaad3ff</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_5d37fc5e832422108eef9f65eeaad31b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-29 21:08:55</sys_updated_on>
+        <sys_user_role display_value="x_1667915_4dot_m_0.user" name="x_1667915_4dot_m_0.user">6542a01683e022108eef9f65eeaad39c</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</application>
+        <file_path/>
+        <instance_id>998e3c1c3b60a254c55a348aa4e45aba</instance_id>
+        <instance_name>dev307760</instance_name>
+        <name>sys_security_acl_role_5d37fc5e832422108eef9f65eeaad31b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-29 21:08:55</sys_created_on><sys_id>5d37fc5e832422108eef9f65eeaad31b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1667915_4dot_m_0_vending_machine_service.x_1667915_4dot_m_0.user</sys_name><sys_package display_value="4Dot Machine Service" source="x_1667915_4dot_m_0">e542a01683e022108eef9f65eeaad382</sys_package><sys_policy/><sys_scope display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</sys_scope><sys_security_acl display_value="x_1667915_4dot_m_0_vending_machine_service">5d37bc5e832422108eef9f65eeaad3ff</sys_security_acl><sys_update_name>sys_security_acl_role_5d37fc5e832422108eef9f65eeaad31b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-29 21:08:55</sys_updated_on><sys_user_role display_value="x_1667915_4dot_m_0.user" name="x_1667915_4dot_m_0.user">6542a01683e022108eef9f65eeaad39c</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>481529194</payload_hash>
+        <record_name>x_1667915_4dot_m_0_vending_machine_service.x_1667915_4dot_m_0.user</record_name>
+        <reverted_from/>
+        <source>f586f49683e022108eef9f65eeaad394</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-29 21:08:55</sys_created_on>
+        <sys_id>9d37fc5e832422108eef9f65eeaad31e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195e3bc7c360000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-29 21:08:55</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>9137fc5e452422101f6308e15afaf41e</update_guid>
+        <update_guid_history>9137fc5e452422101f6308e15afaf41e:481529194</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1667915_4dot_m_0_vending_machine_service.x_1667915_4dot_m_0.user">4bc81d5a83e422108eef9f65eeaad385</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-29 23:35:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>00031f6e20b94ad5800000f03c010441</sys_id>
+        <sys_metadata>5d37fc5e832422108eef9f65eeaad31b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1667915_4dot_m_0_vending_machine_service.x_1667915_4dot_m_0.user</sys_name>
+        <sys_package display_value="4Dot Machine Service" source="x_1667915_4dot_m_0">e542a01683e022108eef9f65eeaad382</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</sys_scope>
+        <sys_scope_delete display_value="">1633501909094a86801d1d31e00c1f49</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_5d37fc5e832422108eef9f65eeaad31b</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_5d37fc5e832422108eef9f65eeaad31b">9d37fc5e832422108eef9f65eeaad31e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-29 23:35:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
