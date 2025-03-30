@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="DELETE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>Import_Departament</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>x_1667915_4dot_m_0_foundationdata</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-30 18:18:23</sys_created_on>
+        <sys_id>85a9d522832c62108eef9f65eeaad3fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Import_Departament</sys_name>
+        <sys_package display_value="4Dot Machine Service" source="x_1667915_4dot_m_0">e542a01683e022108eef9f65eeaad382</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</sys_scope>
+        <sys_update_name>sys_transform_map_85a9d522832c62108eef9f65eeaad3fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-30 18:18:23</sys_updated_on>
+        <target_table>cmn_department</target_table>
+    </sys_transform_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</application>
+        <file_path/>
+        <instance_id>998e3c1c3b60a254c55a348aa4e45aba</instance_id>
+        <instance_name>dev307760</instance_name>
+        <name>sys_transform_map_85a9d522832c62108eef9f65eeaad3fb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;Import_Departament&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;x_1667915_4dot_m_0_foundationdata&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-30 18:18:23&lt;/sys_created_on&gt;&lt;sys_id&gt;85a9d522832c62108eef9f65eeaad3fb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Import_Departament&lt;/sys_name&gt;&lt;sys_package display_value="4Dot Machine Service" source="x_1667915_4dot_m_0"&gt;e542a01683e022108eef9f65eeaad382&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="4Dot Machine Service"&gt;e542a01683e022108eef9f65eeaad382&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_85a9d522832c62108eef9f65eeaad3fb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-30 18:18:23&lt;/sys_updated_on&gt;&lt;target_table&gt;cmn_department&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>461995387</payload_hash>
+        <record_name>Import_Departament</record_name>
+        <reverted_from/>
+        <source>f586f49683e022108eef9f65eeaad394</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-30 18:18:23</sys_created_on>
+        <sys_id>0dc95162832c62108eef9f65eeaad33e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195e846b9660000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-30 18:18:23</sys_updated_on>
+        <type>Table Transform Map</type>
+        <update_guid>01c95162a02c621039f0d7d311333b3e</update_guid>
+        <update_guid_history>01c95162a02c621039f0d7d311333b3e:461995387</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-30 18:35:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_map">sys_transform_map</sys_db_object>
+        <sys_id>2bc9173dd3854464958b11b790102e10</sys_id>
+        <sys_metadata>85a9d522832c62108eef9f65eeaad3fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Import_Departament</sys_name>
+        <sys_package display_value="4Dot Machine Service" source="x_1667915_4dot_m_0">e542a01683e022108eef9f65eeaad382</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</sys_scope>
+        <sys_scope_delete display_value="">1633501909094a86801d1d31e00c1f49</sys_scope_delete>
+        <sys_update_name>sys_transform_map_85a9d522832c62108eef9f65eeaad3fb</sys_update_name>
+        <sys_update_version display_value="sys_transform_map_85a9d522832c62108eef9f65eeaad3fb">0dc95162832c62108eef9f65eeaad33e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-30 18:35:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
