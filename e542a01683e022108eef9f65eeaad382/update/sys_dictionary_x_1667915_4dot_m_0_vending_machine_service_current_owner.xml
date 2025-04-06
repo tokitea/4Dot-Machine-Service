@@ -5,13 +5,13 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Current Owner</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>820351a1c0a8018b67c73d51c074097c</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</sys_scope>
         <sys_update_name>sys_dictionary_x_1667915_4dot_m_0_vending_machine_service_current_owner</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-29 23:16:32</sys_updated_on>
+        <sys_updated_on>2025-04-06 13:29:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

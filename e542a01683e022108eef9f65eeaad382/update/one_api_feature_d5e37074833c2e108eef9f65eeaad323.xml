@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="one_api_feature">
+    <one_api_feature action="INSERT_OR_UPDATE">
+        <input_processor display_value="OneExtendGenericCapabilityRequestProcessor">a7eb538353111110c271ddeeff7b12a8</input_processor>
+        <name>1dbdf571fc387110f87736513ef7b2af</name>
+        <output_processor display_value="OneExtendCapabilityResponseProcessor">3a90ff027f50121032d293f10d866518</output_processor>
+        <short_description>Auto Generated </short_description>
+        <sys_class_name>one_api_feature</sys_class_name>
+        <sys_created_by>alejandra.prenatt</sys_created_by>
+        <sys_created_on>2025-04-06 15:19:15</sys_created_on>
+        <sys_id>d5e37074833c2e108eef9f65eeaad323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1dbdf571fc387110f87736513ef7b2af</sys_name>
+        <sys_package display_value="4Dot Machine Service" source="x_1667915_4dot_m_0">e542a01683e022108eef9f65eeaad382</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</sys_scope>
+        <sys_update_name>one_api_feature_d5e37074833c2e108eef9f65eeaad323</sys_update_name>
+        <sys_updated_by>alejandra.prenatt</sys_updated_by>
+        <sys_updated_on>2025-04-06 15:19:15</sys_updated_on>
+    </one_api_feature>
+</record_update>

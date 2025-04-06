@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="DELETE">
+        <create_roles/>
+        <description>The attributes that will get auto populated after pressing location and content type</description>
+        <display_title>false</display_title>
+        <internal_name>vending_machine</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-06 11:57:24</sys_created_on>
+        <sys_id>3985047083382e108eef9f65eeaad3df</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Vending Machine</sys_name>
+        <sys_package display_value="4Dot Machine Service" source="x_1667915_4dot_m_0">e542a01683e022108eef9f65eeaad382</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</sys_scope>
+        <sys_update_name>item_option_new_set_3985047083382e108eef9f65eeaad3df</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-04-06 13:21:40</sys_updated_on>
+        <title>Vending Machine</title>
+        <type>one_to_one</type>
+        <version>11</version>
+        <write_roles/>
+    </item_option_new_set>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</application>
+        <file_path/>
+        <instance_id>998e3c1c3b60a254c55a348aa4e45aba</instance_id>
+        <instance_name>dev307760</instance_name>
+        <name>item_option_new_set_3985047083382e108eef9f65eeaad3df</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set"><item_option_new_set action="INSERT_OR_UPDATE"><create_roles/><description>The attributes that will get auto populated after pressing location and content type</description><display_title>false</display_title><internal_name>vending_machine</internal_name><layout>normal</layout><name/><order>100</order><read_roles/><set_attributes/><sys_class_name>item_option_new_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-06 11:57:24</sys_created_on><sys_id>3985047083382e108eef9f65eeaad3df</sys_id><sys_mod_count>11</sys_mod_count><sys_name>Vending Machine</sys_name><sys_package display_value="4Dot Machine Service" source="x_1667915_4dot_m_0">e542a01683e022108eef9f65eeaad382</sys_package><sys_policy/><sys_scope display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</sys_scope><sys_update_name>item_option_new_set_3985047083382e108eef9f65eeaad3df</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-04-06 13:21:40</sys_updated_on><title>Vending Machine</title><type>one_to_one</type><version>11</version><write_roles/></item_option_new_set></record_update>]]></payload>
+        <payload_hash>-1700875156</payload_hash>
+        <record_name>Vending Machine</record_name>
+        <reverted_from/>
+        <source>f586f49683e022108eef9f65eeaad394</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-04-06 13:21:40</sys_created_on>
+        <sys_id>b6f894f883782e108eef9f65eeaad31c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1960b4395070000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-04-06 13:21:40</sys_updated_on>
+        <type>Variable Set</type>
+        <update_guid>faf894f85d782e10c74aa640690d201b</update_guid>
+        <update_guid_history>faf894f85d782e10c74aa640690d201b:-1700875156,f3c890f8a9782e109768596adc986bad:-1492176853,a8c810f804782e108c84600667c6caf4:-278867733,020890b84c782e105dc4488078508199:-70169430,7907c0f0a1382e10e9725ab35b1c5c84:138528873,b3f688b0a3382e1073c36e4ade92add4:347227176,76f6ccb0a0382e10d1c16d96b0afb79f:555925479,26964cb097382e10ba57755c547c9d77:764623782,3c86407001382e10767956539d004a6d:973322085,847648b03b382e10a3184e76cd4626a1:1182020388,1c160c700a382e10a9543cfa1c3982df:1390718691,54b5c0303f382e10a3ae6292f815d5cc:323616710</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Vending Machine">fa752c7883b82e108eef9f65eeaad340</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-04-06 14:16:17</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new_set">item_option_new_set</sys_db_object>
+        <sys_id>52b828e1833a4b50a639937b7e0c1100</sys_id>
+        <sys_metadata>3985047083382e108eef9f65eeaad3df</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vending Machine</sys_name>
+        <sys_package display_value="4Dot Machine Service" source="x_1667915_4dot_m_0">e542a01683e022108eef9f65eeaad382</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</sys_scope>
+        <sys_scope_delete display_value="">1633501909094a86801d1d31e00c1f49</sys_scope_delete>
+        <sys_update_name>item_option_new_set_3985047083382e108eef9f65eeaad3df</sys_update_name>
+        <sys_update_version display_value="item_option_new_set_3985047083382e108eef9f65eeaad3df">b6f894f883782e108eef9f65eeaad31c</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-04-06 14:16:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

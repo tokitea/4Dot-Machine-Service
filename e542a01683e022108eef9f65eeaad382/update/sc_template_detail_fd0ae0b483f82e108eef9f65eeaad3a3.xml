@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_template_detail">
+    <sc_template_detail action="INSERT_OR_UPDATE">
+        <applies_to_multi_row_variable_set>false</applies_to_multi_row_variable_set>
+        <item_option_new display_value="Questions">c59589b673221010c84e2bb43cf6a742</item_option_new>
+        <mandatory>false</mandatory>
+        <readonly>false</readonly>
+        <restricted>false</restricted>
+        <set/>
+        <sys_class_name>sc_template_detail</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-06 14:36:09</sys_created_on>
+        <sys_id>fd0ae0b483f82e108eef9f65eeaad3a3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="4Dot Machine Service" source="x_1667915_4dot_m_0">e542a01683e022108eef9f65eeaad382</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</sys_scope>
+        <sys_update_name>sc_template_detail_fd0ae0b483f82e108eef9f65eeaad3a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-06 14:47:13</sys_updated_on>
+        <template display_value="Refill Vending Machine">c3c9a47483f82e108eef9f65eeaad3e8</template>
+        <value>{"serializedData":[{"id":"01dba83883f82e108eef9f65eeaad36f","name":"variables.refill_vending_machine","active":false,"order":100,"friendly_type":"container_start","containerType":"one_to_one","type":0}],"variablesLayout":[{"layout":"normal","captionDisplay":"Refill Vending Machine","name":"variables.refill_vending_machine","caption":"Refill Vending Machine","id":"01dba83883f82e108eef9f65eeaad36f","type":"container","columns":[{"fields":[{"name":"variables.location","id":"0d5c247883f82e108eef9f65eeaad37b","type":"field"},{"name":"variables.type_of_machine","id":"d7eb2cf483f82e108eef9f65eeaad38d","type":"field"}]}]}],"variables":[{"containerSplitId":null,"type":0,"mandatory":false,"friendly_type":"container_start","read_only":false,"children":[[{"active":true,"label":"Location","dynamic_value_field":"","type":8,"mandatory":true,"displayvalue":"","friendly_type":"reference","display_type":"Reference","reference":"cmn_location","render_label":true,"ref_qualifier":"","read_only":false,"conversational_label":"","name":"variables.location","attributes":"edge_encryption_enabled=true","id":"0d5c247883f82e108eef9f65eeaad37b","value":"","dynamic_value_dot_walk_path":"","help_text":"","max_length":0,"order":-1},{"active":true,"label":"Type of Machine","dynamic_value_field":"","type":5,"mandatory":true,"displayvalue":"","friendly_type":"select_box","display_type":"Select Box","render_label":true,"read_only":false,"conversational_label":"","name":"variables.type_of_machine","attributes":"edge_encryption_enabled=true","id":"d7eb2cf483f82e108eef9f65eeaad38d","choices":[{"recurring_price_currency":"","price":0,"index":0,"recurring_price":0,"label":"Food","value":"food","price_currency":""},{"recurring_price_currency":"","price":0,"index":1,"recurring_price":0,"label":"Drinks","value":"drinks","price_currency":""}],"value":"","dynamic_value_dot_walk_path":"","help_text":"","max_length":0,"order":-1}]],"conversational_label":null,"hasSplit":false,"containerEndId":null,"id":"01dba83883f82e108eef9f65eeaad36f","value":null,"dynamic_value_dot_walk_path":"","max_length":0,"order":100,"containerType":"one_to_one","active":false,"label":"Refill Vending Machine","dynamic_value_field":"","columnCount":1,"displayvalue":"","layout":"normal","render_label":false,"name":"variables.refill_vending_machine","attributes":"edge_encryption_enabled=true","help_text":""},{"active":true,"label":"Location","dynamic_value_field":"","type":8,"mandatory":true,"displayvalue":"","friendly_type":"reference","display_type":"Reference","reference":"cmn_location","render_label":true,"ref_qualifier":"","read_only":false,"conversational_label":"","name":"variables.location","attributes":"edge_encryption_enabled=true","id":"0d5c247883f82e108eef9f65eeaad37b","value":"","dynamic_value_dot_walk_path":"","help_text":"","max_length":0,"order":-1},{"active":true,"label":"Type of Machine","dynamic_value_field":"","type":5,"mandatory":true,"displayvalue":"","friendly_type":"select_box","display_type":"Select Box","render_label":true,"read_only":false,"conversational_label":"","name":"variables.type_of_machine","attributes":"edge_encryption_enabled=true","id":"d7eb2cf483f82e108eef9f65eeaad38d","choices":[{"recurring_price_currency":"","price":0,"index":0,"recurring_price":0,"label":"Food","value":"food","price_currency":""},{"recurring_price_currency":"","price":0,"index":1,"recurring_price":0,"label":"Drinks","value":"drinks","price_currency":""}],"value":"","dynamic_value_dot_walk_path":"","help_text":"","max_length":0,"order":-1}],"uiPolicyMap":{},"restrictedVariables":[]}</value>
+    </sc_template_detail>
+</record_update>
