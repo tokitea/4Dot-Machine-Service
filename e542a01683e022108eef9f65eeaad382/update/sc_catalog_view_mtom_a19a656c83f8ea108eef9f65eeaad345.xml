@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="4Dot Services">a77ae16c83f8ea108eef9f65eeaad36a</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-06 00:39:44</sys_created_on>
+        <sys_id>a19a656c83f8ea108eef9f65eeaad345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4Dot Services.catalog_4dot_services</sys_name>
+        <sys_package display_value="4Dot Machine Service" source="x_1667915_4dot_m_0">e542a01683e022108eef9f65eeaad382</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_4dot_services">6d9ae5e883f8ea108eef9f65eeaad317</sys_portal_page>
+        <sys_scope display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_a19a656c83f8ea108eef9f65eeaad345</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-06 00:39:44</sys_updated_on>
+    </sc_catalog_view_mtom>
+</record_update>
