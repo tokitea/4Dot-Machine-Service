@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>incident</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="incident">subcategory=vending_machine^EQ<item display_value="vending_machine" endquery="false" field="subcategory" goto="false" newquery="false" operator="=" or="false" value="vending_machine"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>correct assignment group</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[var location = current.location;  // Get the location sys_id from the incident
+var group = new GlideRecord('cmn_group');
+var assignedGroup = null;
+
+// Ensure the subcategory is 'Hardware'
+if (current.subcategory == 'Vending Machine') {
+    // Get the location name by querying cmn_location table
+    var locationRecord = new GlideRecord('cmn_location');
+    locationRecord.get(location);  // This will get the record for the current location based on sys_id
+
+    // If location is found, get the location name
+    var locationName = locationRecord.name;
+
+    // Check for California location and assign to service_1
+    if (locationName == 'California') {
+        group.addQuery('name', 'service_1');
+        group.query();
+        if (group.next()) {
+            assignedGroup = group.sys_id;
+        }
+    }
+    // Check for Georgia location and assign to service_2
+    else if (locationName == 'Georgia') {
+        group.addQuery('name', 'service_2');
+        group.query();
+        if (group.next()) {
+            assignedGroup = group.sys_id;
+        }
+    }
+    // Check for Illinois location and assign to service_3
+    else if (locationName == 'Illinois') {
+        group.addQuery('name', 'service_3');
+        group.query();
+        if (group.next()) {
+            assignedGroup = group.sys_id;
+        }
+    }
+    // If the location doesn't match California, Georgia, or Illinois, assign to Coordinator Group
+    else {
+        var coordinatorGroup = new GlideRecord('cmn_group');
+        coordinatorGroup.addQuery('name', 'Coordinator Group');
+        coordinatorGroup.query();
+        if (coordinatorGroup.next()) {
+            assignedGroup = coordinatorGroup.sys_id;
+        }
+    }
+
+    // Assign the found group to the assignment_group field
+    if (assignedGroup) {
+        current.assignment_group = assignedGroup;
+    }
+}
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-05 23:05:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1eb2192c8378ea108eef9f65eeaad3e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>correct assignment group</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="4Dot Machine Service" source="x_1667915_4dot_m_0">e542a01683e022108eef9f65eeaad382</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</sys_scope>
+        <sys_update_name>sys_script_1eb2192c8378ea108eef9f65eeaad3e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-05 23:05:08</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=1eb2192c8378ea108eef9f65eeaad3e9"/>
+</record_update>
