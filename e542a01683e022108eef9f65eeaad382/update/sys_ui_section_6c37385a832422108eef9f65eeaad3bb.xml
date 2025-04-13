@@ -4,13 +4,13 @@
             <element>content_type</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-29 23:18:57</sys_created_on>
-            <sys_id>31f49d1683e422108eef9f65eeaad325</sys_id>
+            <sys_created_on>2025-04-13 14:13:09</sys_created_on>
+            <sys_id>c5e7e4c783f022108eef9f65eeaad303</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1667915_4dot_m_0_vending_machine_service" sys_domain="global" view="Default view">6c37385a832422108eef9f65eeaad3bb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-29 23:18:57</sys_updated_on>
+            <sys_updated_on>2025-04-13 14:13:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,139 +18,139 @@
             <element>sys_created_on</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-29 23:18:57</sys_created_on>
-            <sys_id>39f49d1683e422108eef9f65eeaad325</sys_id>
+            <sys_created_on>2025-04-13 14:13:09</sys_created_on>
+            <sys_id>cde7e4c783f022108eef9f65eeaad303</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1667915_4dot_m_0_vending_machine_service" sys_domain="global" view="Default view">6c37385a832422108eef9f65eeaad3bb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-29 23:18:57</sys_updated_on>
+            <sys_updated_on>2025-04-13 14:13:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>machine</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-13 14:13:09</sys_created_on>
+            <sys_id>c5e7e4c783f022108eef9f65eeaad304</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1667915_4dot_m_0_vending_machine_service" sys_domain="global" view="Default view">6c37385a832422108eef9f65eeaad3bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-13 14:13:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sys_created_by</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-29 23:18:57</sys_created_on>
-            <sys_id>31f49d1683e422108eef9f65eeaad326</sys_id>
+            <sys_created_on>2025-04-13 14:13:09</sys_created_on>
+            <sys_id>cde7e4c783f022108eef9f65eeaad304</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1667915_4dot_m_0_vending_machine_service" sys_domain="global" view="Default view">6c37385a832422108eef9f65eeaad3bb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-29 23:18:57</sys_updated_on>
+            <sys_updated_on>2025-04-13 14:13:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>current_owner</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-29 23:18:57</sys_created_on>
-            <sys_id>0af49d1683e422108eef9f65eeaad326</sys_id>
+            <sys_created_on>2025-04-13 14:13:09</sys_created_on>
+            <sys_id>c5e7e4c783f022108eef9f65eeaad305</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1667915_4dot_m_0_vending_machine_service" sys_domain="global" view="Default view">6c37385a832422108eef9f65eeaad3bb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-29 23:18:57</sys_updated_on>
+            <sys_updated_on>2025-04-13 14:13:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>date_of_installation</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-29 23:18:57</sys_created_on>
-            <sys_id>02f49d1683e422108eef9f65eeaad327</sys_id>
+            <sys_created_on>2025-04-13 14:13:09</sys_created_on>
+            <sys_id>cde7e4c783f022108eef9f65eeaad305</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1667915_4dot_m_0_vending_machine_service" sys_domain="global" view="Default view">6c37385a832422108eef9f65eeaad3bb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-29 23:18:57</sys_updated_on>
+            <sys_updated_on>2025-04-13 14:13:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>date_of_purchase</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-29 23:18:57</sys_created_on>
-            <sys_id>0af49d1683e422108eef9f65eeaad327</sys_id>
+            <sys_created_on>2025-04-13 14:13:09</sys_created_on>
+            <sys_id>c5e7e4c783f022108eef9f65eeaad306</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1667915_4dot_m_0_vending_machine_service" sys_domain="global" view="Default view">6c37385a832422108eef9f65eeaad3bb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-29 23:18:57</sys_updated_on>
+            <sys_updated_on>2025-04-13 14:13:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>journal</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-29 23:18:57</sys_created_on>
-            <sys_id>02f49d1683e422108eef9f65eeaad328</sys_id>
+            <sys_created_on>2025-04-13 14:13:09</sys_created_on>
+            <sys_id>cde7e4c783f022108eef9f65eeaad306</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1667915_4dot_m_0_vending_machine_service" sys_domain="global" view="Default view">6c37385a832422108eef9f65eeaad3bb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-29 23:18:57</sys_updated_on>
+            <sys_updated_on>2025-04-13 14:13:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>last_time_serviced</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-29 23:18:57</sys_created_on>
-            <sys_id>0af49d1683e422108eef9f65eeaad328</sys_id>
+            <sys_created_on>2025-04-13 14:13:09</sys_created_on>
+            <sys_id>c5e7e4c783f022108eef9f65eeaad307</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1667915_4dot_m_0_vending_machine_service" sys_domain="global" view="Default view">6c37385a832422108eef9f65eeaad3bb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-29 23:18:57</sys_updated_on>
+            <sys_updated_on>2025-04-13 14:13:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-29 23:18:57</sys_created_on>
-            <sys_id>02f49d1683e422108eef9f65eeaad329</sys_id>
+            <sys_created_on>2025-04-13 14:13:09</sys_created_on>
+            <sys_id>cde7e4c783f022108eef9f65eeaad307</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1667915_4dot_m_0_vending_machine_service" sys_domain="global" view="Default view">6c37385a832422108eef9f65eeaad3bb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-29 23:18:57</sys_updated_on>
+            <sys_updated_on>2025-04-13 14:13:09</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>location</element>
-            <position>9</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-29 23:18:57</sys_created_on>
-            <sys_id>0af49d1683e422108eef9f65eeaad329</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1667915_4dot_m_0_vending_machine_service" sys_domain="global" view="Default view">6c37385a832422108eef9f65eeaad3bb</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-29 23:18:57</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>name</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-29 23:18:57</sys_created_on>
-            <sys_id>02f49d1683e422108eef9f65eeaad32a</sys_id>
+            <sys_created_on>2025-04-13 14:13:09</sys_created_on>
+            <sys_id>c5e7e4c783f022108eef9f65eeaad308</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1667915_4dot_m_0_vending_machine_service" sys_domain="global" view="Default view">6c37385a832422108eef9f65eeaad3bb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-29 23:18:57</sys_updated_on>
+            <sys_updated_on>2025-04-13 14:13:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -158,13 +158,13 @@
             <element>service_group</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-29 23:18:57</sys_created_on>
-            <sys_id>0af49d1683e422108eef9f65eeaad32a</sys_id>
+            <sys_created_on>2025-04-13 14:13:09</sys_created_on>
+            <sys_id>cde7e4c783f022108eef9f65eeaad308</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1667915_4dot_m_0_vending_machine_service" sys_domain="global" view="Default view">6c37385a832422108eef9f65eeaad3bb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-29 23:18:57</sys_updated_on>
+            <sys_updated_on>2025-04-13 14:13:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -172,13 +172,13 @@
             <element>state</element>
             <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-29 23:18:57</sys_created_on>
-            <sys_id>02f49d1683e422108eef9f65eeaad32b</sys_id>
+            <sys_created_on>2025-04-13 14:13:09</sys_created_on>
+            <sys_id>c5e7e4c783f022108eef9f65eeaad309</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1667915_4dot_m_0_vending_machine_service" sys_domain="global" view="Default view">6c37385a832422108eef9f65eeaad3bb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-29 23:18:57</sys_updated_on>
+            <sys_updated_on>2025-04-13 14:13:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -186,13 +186,13 @@
             <element>type_of_ownership</element>
             <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-29 23:18:57</sys_created_on>
-            <sys_id>0af49d1683e422108eef9f65eeaad32b</sys_id>
+            <sys_created_on>2025-04-13 14:13:09</sys_created_on>
+            <sys_id>cde7e4c783f022108eef9f65eeaad309</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1667915_4dot_m_0_vending_machine_service" sys_domain="global" view="Default view">6c37385a832422108eef9f65eeaad3bb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-29 23:18:57</sys_updated_on>
+            <sys_updated_on>2025-04-13 14:13:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -200,13 +200,13 @@
             <element>sys_updated_on</element>
             <position>14</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-29 23:18:57</sys_created_on>
-            <sys_id>02f49d1683e422108eef9f65eeaad32c</sys_id>
+            <sys_created_on>2025-04-13 14:13:09</sys_created_on>
+            <sys_id>c5e7e4c783f022108eef9f65eeaad30a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1667915_4dot_m_0_vending_machine_service" sys_domain="global" view="Default view">6c37385a832422108eef9f65eeaad3bb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-29 23:18:57</sys_updated_on>
+            <sys_updated_on>2025-04-13 14:13:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -214,13 +214,13 @@
             <element>sys_mod_count</element>
             <position>15</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-29 23:18:57</sys_created_on>
-            <sys_id>0af49d1683e422108eef9f65eeaad32c</sys_id>
+            <sys_created_on>2025-04-13 14:13:09</sys_created_on>
+            <sys_id>cde7e4c783f022108eef9f65eeaad30a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1667915_4dot_m_0_vending_machine_service" sys_domain="global" view="Default view">6c37385a832422108eef9f65eeaad3bb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-29 23:18:57</sys_updated_on>
+            <sys_updated_on>2025-04-13 14:13:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

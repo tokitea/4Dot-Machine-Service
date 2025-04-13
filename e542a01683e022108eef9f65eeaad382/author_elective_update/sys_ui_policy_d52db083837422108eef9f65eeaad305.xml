@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+    }
+
+]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+var gr = new GlideRecord('x_1667915_4dot_m_0_cmdb_ci_vending_machine');
+if (gr.get('name', g_form.getValue('machine'))) {
+    g_form.setValue('location', gr.location);
+    g_form.setValue('service_group', gr.assignment_group);
+}
+
+}]]></script_true>
+        <set_values/>
+        <short_description>when user picks machine the location and serrvice group are autopopulated</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-13 15:53:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d52db083837422108eef9f65eeaad305</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>when user picks machine the location and serrvice group are autopopulated</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="4Dot Machine Service" source="x_1667915_4dot_m_0">e542a01683e022108eef9f65eeaad382</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</sys_scope>
+        <sys_update_name>sys_ui_policy_d52db083837422108eef9f65eeaad305</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-13 16:42:42</sys_updated_on>
+        <table>x_1667915_4dot_m_0_vending_machine_service</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</application>
+        <file_path/>
+        <instance_id>998e3c1c3b60a254c55a348aa4e45aba</instance_id>
+        <instance_name>dev307760</instance_name>
+        <name>sys_ui_policy_d52db083837422108eef9f65eeaad305</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;true&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+    }
+
+]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+var gr = new GlideRecord('x_1667915_4dot_m_0_cmdb_ci_vending_machine');
+if (gr.get('name', g_form.getValue('machine'))) {
+    g_form.setValue('location', gr.location);
+    g_form.setValue('service_group', gr.assignment_group);
+}
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;when user picks machine the location and serrvice group are autopopulated&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-04-13 15:53:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d52db083837422108eef9f65eeaad305&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;when user picks machine the location and serrvice group are autopopulated&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="4Dot Machine Service" source="x_1667915_4dot_m_0"&gt;e542a01683e022108eef9f65eeaad382&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="4Dot Machine Service"&gt;e542a01683e022108eef9f65eeaad382&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_d52db083837422108eef9f65eeaad305&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-04-13 16:42:42&lt;/sys_updated_on&gt;&lt;table&gt;x_1667915_4dot_m_0_vending_machine_service&lt;/table&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-46682380</payload_hash>
+        <record_name>when user picks machine the location and serrvice group are autopopulated</record_name>
+        <reverted_from/>
+        <source>f586f49683e022108eef9f65eeaad394</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-13 16:42:42</sys_created_on>
+        <sys_id>371a858783b422108eef9f65eeaad32b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196300825700000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-13 16:42:42</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>bb1a8587fdb422108296dc355581862a</update_guid>
+        <update_guid_history>bb1a8587fdb422108296dc355581862a:-46682380,ca394907c7b422106d2ec5040aa30cec:-121850251,37684183e6b4221034afed9f73ac3a6e:1361347519,df378d43c2b4221043a53e2bf839677e:-809216356,1cd68dcf4a742210ffb24d134aa8cdc0:1991171188,b6eebc4315742210cadab9c58e2fbb1a:-883916788</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-13 18:44:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>50cfc109eda9418ca5aa916e39bb0e09</sys_id>
+        <sys_metadata>d52db083837422108eef9f65eeaad305</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>when user picks machine the location and serrvice group are autopopulated</sys_name>
+        <sys_package display_value="4Dot Machine Service" source="x_1667915_4dot_m_0">e542a01683e022108eef9f65eeaad382</sys_package>
+        <sys_parent display_value="4dot M 0 Vending Machine Service">14377c5e832422108eef9f65eeaad3de</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</sys_scope>
+        <sys_scope_delete display_value="">1633501909094a86801d1d31e00c1f49</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_d52db083837422108eef9f65eeaad305</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_d52db083837422108eef9f65eeaad305">371a858783b422108eef9f65eeaad32b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-13 18:44:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
