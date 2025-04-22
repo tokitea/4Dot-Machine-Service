@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Refill Vending Machine">081be96c83f8ea108eef9f65eeaad376</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-06 13:40:13</sys_created_on>
+        <sys_id>a63d1cb083b82e108eef9f65eeaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Refill Vending Machine</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_a63d1cb083b82e108eef9f65eeaad3ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-06 13:40:13</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</application>
+        <file_path/>
+        <instance_id>998e3c1c3b60a254c55a348aa4e45aba</instance_id>
+        <instance_name>dev307760</instance_name>
+        <name>sc_cat_item_catalog_a63d1cb083b82e108eef9f65eeaad3ea</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="DELETE"><sc_cat_item display_value="Refill Vending Machine">081be96c83f8ea108eef9f65eeaad376</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-06 13:40:13</sys_created_on><sys_id>a63d1cb083b82e108eef9f65eeaad3ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Refill Vending Machine</sys_name><sys_package/><sys_policy/><sys_scope display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</sys_scope><sys_update_name>sc_cat_item_catalog_a63d1cb083b82e108eef9f65eeaad3ea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-06 13:40:13</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>2092271541</payload_hash>
+        <record_name>Service Catalog.Refill Vending Machine</record_name>
+        <reverted_from/>
+        <source>8c2524bc83b82e108eef9f65eeaad36a</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-06 14:14:45</sys_created_on>
+        <sys_id>142524bc83b82e108eef9f65eeaad390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1960b742d7f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-06 14:14:45</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>d42524bc3fb82e109097bbb40783ae8f</update_guid>
+        <update_guid_history>d42524bc3fb82e109097bbb40783ae8f:2092271541,fe3d5cb020b82e10e519b27103d2c973:-382721343,763d5cb028b82e108035043984190353:1350565511</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Refill Vending Machine">502524bc83b82e108eef9f65eeaad391</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-06 14:14:45</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>74c641d0b8414586b64dc4672369e971</sys_id>
+        <sys_metadata>a63d1cb083b82e108eef9f65eeaad3ea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Refill Vending Machine</sys_name>
+        <sys_package/>
+        <sys_parent display_value="">081be96c83f8ea108eef9f65eeaad376</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</sys_scope>
+        <sys_scope_delete display_value="">1633501909094a86801d1d31e00c1f49</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_a63d1cb083b82e108eef9f65eeaad3ea</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_a63d1cb083b82e108eef9f65eeaad3ea">142524bc83b82e108eef9f65eeaad390</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-06 14:14:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

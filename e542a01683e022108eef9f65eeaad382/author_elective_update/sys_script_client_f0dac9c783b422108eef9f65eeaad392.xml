@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>autopopulating location and service grp</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || !newValue) {
+        return;
+    }
+
+    g_form.getReference('machine', function(machineObj) {
+        if (machineObj) {
+            g_form.setValue('location', machineObj.location);
+            g_form.setValue('service_group', machineObj.assignment_group);
+        }
+    });
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-13 16:47:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f0dac9c783b422108eef9f65eeaad392</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>autopopulating location and service grp</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="4Dot Machine Service" source="x_1667915_4dot_m_0">e542a01683e022108eef9f65eeaad382</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</sys_scope>
+        <sys_update_name>sys_script_client_f0dac9c783b422108eef9f65eeaad392</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-13 18:50:52</sys_updated_on>
+        <table>x_1667915_4dot_m_0_vending_machine_service</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</application>
+        <file_path/>
+        <instance_id>998e3c1c3b60a254c55a348aa4e45aba</instance_id>
+        <instance_name>dev307760</instance_name>
+        <name>sys_script_client_f0dac9c783b422108eef9f65eeaad392</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;autopopulating location and service grp&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || !newValue) {
+        return;
+    }
+
+    g_form.getReference('machine', function(machineObj) {
+        if (machineObj) {
+            g_form.setValue('location', machineObj.location);
+            g_form.setValue('service_group', machineObj.assignment_group);
+        }
+    });
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-04-13 16:47:00&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f0dac9c783b422108eef9f65eeaad392&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;autopopulating location and service grp&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="4Dot Machine Service" source="x_1667915_4dot_m_0"&gt;e542a01683e022108eef9f65eeaad382&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="4Dot Machine Service"&gt;e542a01683e022108eef9f65eeaad382&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_f0dac9c783b422108eef9f65eeaad392&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-04-13 18:50:52&lt;/sys_updated_on&gt;&lt;table&gt;x_1667915_4dot_m_0_vending_machine_service&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1818228807</payload_hash>
+        <record_name>autopopulating location and service grp</record_name>
+        <reverted_from/>
+        <source>f586f49683e022108eef9f65eeaad394</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-13 18:50:52</sys_created_on>
+        <sys_id>1577ed0f833822108eef9f65eeaad3e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196307d7bdc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-13 18:50:52</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>9977ed0f673822108d91d285d3af0de2</update_guid>
+        <update_guid_history>9977ed0f673822108d91d285d3af0de2:-1818228807,9c466dcb48382210aaf38edaa1f0d913:-1111743754,a9d4e94b2738221076ad98f991565821:-1867504221,4ce3290be9382210305371b0a04059e0:1715576854,a61329c7a838221034ab5819af201fd9:-1235113899,63bfc98f17b4221025d98e567fc7ac9a:-2002363072,647f098f6ab422102f7fb5a333947a8e:642304685,3c1e4d8b60b422103b47da899cb9c22a:-2002363072,b21b89c751b422105da3da98b68eaddf:892877325</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-20 10:35:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>7d6fdf49685240a884881eee255ce484</sys_id>
+        <sys_metadata>f0dac9c783b422108eef9f65eeaad392</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>autopopulating location and service grp</sys_name>
+        <sys_package display_value="4Dot Machine Service" source="x_1667915_4dot_m_0">e542a01683e022108eef9f65eeaad382</sys_package>
+        <sys_parent display_value="4dot M 0 Vending Machine Service">14377c5e832422108eef9f65eeaad3de</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</sys_scope>
+        <sys_scope_delete display_value="">1633501909094a86801d1d31e00c1f49</sys_scope_delete>
+        <sys_update_name>sys_script_client_f0dac9c783b422108eef9f65eeaad392</sys_update_name>
+        <sys_update_version display_value="sys_script_client_f0dac9c783b422108eef9f65eeaad392">1577ed0f833822108eef9f65eeaad3e3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-20 10:35:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

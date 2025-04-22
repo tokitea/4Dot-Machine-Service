@@ -14,31 +14,31 @@
         <description/>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow display_value="Service Catalog item request">30f3d26187e92300e0ef0cf888cb0b91</flow_designer_flow>
+        <flow_designer_flow display_value="Step based request fulfillment">21ea92dd53622010fca7ddeeff7b12b1</flow_designer_flow>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
-        <ignore_price>true</ignore_price>
+        <ignore_price>false</ignore_price>
         <image/>
         <location/>
         <make_item_non_conversational>false</make_item_non_conversational>
         <mandatory_attachment>false</mandatory_attachment>
-        <meta>Vending,Academy</meta>
+        <meta>academy,order</meta>
         <mobile_hide_price>false</mobile_hide_price>
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Refill Vending Machine</name>
+        <name>ordering a machine</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
-        <no_cart_v2>true</no_cart_v2>
+        <no_cart_v2>false</no_cart_v2>
         <no_delivery_time_v2>false</no_delivery_time_v2>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
-        <no_quantity_v2>true</no_quantity_v2>
+        <no_quantity_v2>false</no_quantity_v2>
         <no_save_as_draft>false</no_save_as_draft>
         <no_search>false</no_search>
         <no_wishlist_v2>false</no_wishlist_v2>
@@ -47,60 +47,60 @@
         <ordered_item_link/>
         <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
         <picture/>
-        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=aabca87883f82e108eef9f65eeaad324&amp;sysparm_preview=true", "summary");</preview>
-        <price>0</price>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=ceeebee183056e108eef9f65eeaad3c5&amp;sysparm_preview=true", "summary");</preview>
+        <price>2200</price>
         <published_ref/>
         <recurring_frequency/>
-        <request_method>request</request_method>
+        <request_method/>
         <roles/>
         <sc_catalogs>a77ae16c83f8ea108eef9f65eeaad36a</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <sc_template display_value="Refill Vending Machine">c3c9a47483f82e108eef9f65eeaad3e8</sc_template>
+        <sc_template display_value="Order a new vending machine">aebd3ea183056e108eef9f65eeaad38e</sc_template>
         <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state>published</state>
         <sys_class_name>sc_cat_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-04-06 14:48:09</sys_created_on>
-        <sys_id>aabca87883f82e108eef9f65eeaad324</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Refill Vending Machine</sys_name>
+        <sys_created_on>2025-04-21 19:38:07</sys_created_on>
+        <sys_id>ceeebee183056e108eef9f65eeaad3c5</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>ordering a machine</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</sys_scope>
-        <sys_update_name>sc_cat_item_aabca87883f82e108eef9f65eeaad324</sys_update_name>
+        <sys_update_name>sc_cat_item_ceeebee183056e108eef9f65eeaad3c5</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-04-21 23:45:41</sys_updated_on>
-        <taxonomy_topic display_value="Developer services">988497a7c3053010069aec4b7d40ddea</taxonomy_topic>
+        <sys_updated_on>2025-04-21 20:31:01</sys_updated_on>
+        <taxonomy_topic display_value="Hardware">782413a7c3053010069aec4b7d40ddf1</taxonomy_topic>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>6</version>
+        <version>20</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
         <workflow/>
     </sc_cat_item>
-    <sys_translated_text action="delete_multiple" query="documentkey=aabca87883f82e108eef9f65eeaad324"/>
-    <fx_price action="delete_multiple" query="id=aabca87883f82e108eef9f65eeaad324"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=ceeebee183056e108eef9f65eeaad3c5"/>
+    <fx_price action="delete_multiple" query="id=ceeebee183056e108eef9f65eeaad3c5"/>
     <fx_price action="INSERT_OR_UPDATE">
-        <amount>0</amount>
+        <amount>2200</amount>
         <currency display_value="USD">USD</currency>
         <field>price</field>
-        <id>aabca87883f82e108eef9f65eeaad324</id>
+        <id>ceeebee183056e108eef9f65eeaad3c5</id>
         <parent/>
-        <reference_amount>0</reference_amount>
+        <reference_amount>2200</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-04-06 14:48:09</sys_created_on>
-        <sys_id>a1ccac7883f82e108eef9f65eeaad3d7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2025-04-21 19:38:07</sys_created_on>
+        <sys_id>ebfef62583056e108eef9f65eeaad307</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-06 14:48:09</sys_updated_on>
+        <sys_updated_on>2025-04-21 20:24:18</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>

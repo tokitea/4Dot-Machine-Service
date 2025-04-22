@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>resolved or closed resolution</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+  var state = g_form.getValue('state');
+  
+  if ((state == '6' || state == '7') && (!g_form.getValue('close_code') || !g_form.getValue('close_notes'))) {
+    if (!g_form.getValue('close_code')) {
+      g_form.showFieldMsg('close_code', 'Resolution Code is mandatory', 'error');
+    }
+    if (!g_form.getValue('close_notes')) {
+      g_form.showFieldMsg('close_notes', 'Resolution Notes are mandatory', 'error');
+    }
+    return false;
+  }
+
+  return true;
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-21 21:06:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7de2db2183856e108eef9f65eeaad3e4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>resolved or closed resolution</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="4Dot Machine Service" source="x_1667915_4dot_m_0">e542a01683e022108eef9f65eeaad382</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machine Service">e542a01683e022108eef9f65eeaad382</sys_scope>
+        <sys_update_name>sys_script_client_7de2db2183856e108eef9f65eeaad3e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-21 21:19:15</sys_updated_on>
+        <table>incident</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
