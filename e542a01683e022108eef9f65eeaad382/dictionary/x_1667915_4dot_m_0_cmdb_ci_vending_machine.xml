@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9a3b984783b022108eef9f65eeaad3d9" extends="cmdb_ci_hardware" label="Vending Machine" max_length="40" name="x_1667915_4dot_m_0_cmdb_ci_vending_machine" type="collection">
+        <element label="Dimensions" max_length="40" name="u_dimensions" type="string"/>
+        <element label="Volume" max_length="40" name="u_volume" type="float"/>
+        <element choice="1" label="Type" max_length="40" name="u_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Combo" sequence="3" value="Combo"/>
+                <element inactive_on_update="false" label="Fridge" sequence="1" value="Fridge"/>
+                <element inactive="true" inactive_on_update="true" label="No features" sequence="0" value="No features"/>
+                <element inactive_on_update="false" label="Heater" sequence="2" value="Heaterr"/>
+            </choice>
+        </element>
+    </element>
+</database>
